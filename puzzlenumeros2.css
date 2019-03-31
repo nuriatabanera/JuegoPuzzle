@@ -1,0 +1,244 @@
+body{
+	margin:0;
+	padding:0;
+
+}
+
+.titulo{
+	margin-left: 320px;
+	margin-top: 100px;
+	width:100%;
+	height:100%;
+	position:absolute;
+	
+
+}
+
+
+.cosas{
+
+	left: 20px;
+	top: 100px;
+	font-size: 0;
+	position: relative;
+    
+
+}
+
+#pieza1, #pieza2, #pieza3, #pieza4,
+#pieza5, #pieza6, #pieza7, #pieza8,
+#pieza9, #pieza10, #pieza11, #pieza12,
+#pieza13, #pieza14, #pieza15, #pieza16{
+	position: absolute;
+	border: 1px solid grey;
+} 
+#hueco1, #hueco2, #hueco3, #hueco4,
+#hueco5, #hueco6, #hueco7, #hueco8,
+#hueco9, #hueco10, #hueco11, #hueco12,
+#hueco13, #hueco14, #hueco15, #hueco16{
+	position: absolute;	
+	border: 1px solid grey;
+	opacity: 0.3;
+} 
+
+
+#pieza2{
+	width: 100px;
+	height: 100px;
+	top: 100px;
+	left: 600px;
+}
+
+#pieza12{
+	width: 100px;
+	height: 100px;
+	top: 100px;
+	left: 700px;
+}
+#pieza7{
+	width: 100px;
+	height: 100px;
+	top: 100px;
+	left: 800px;
+}
+#pieza15{
+	width: 100px;
+	height: 100px;
+	top: 100px;
+	left: 900px;
+}
+#pieza1{
+	width: 100px;
+	height: 100px;
+	top: 200px;
+	left: 600px;
+}
+#pieza16{
+	width: 100px;
+	height: 100px;
+	top: 200px;
+	left: 700px;
+}
+#pieza8{
+	width: 100px;
+	height: 100px;
+	top: 200px;
+	left: 800px;
+}
+#pieza11{
+	width: 100px;
+	height: 100px;
+	top: 200px;
+	left: 900px;
+}
+#pieza13{
+	width: 100px;
+	height: 100px;
+	top: 300px;
+	left: 600px;
+}
+#pieza4{
+	width: 100px;
+	height: 100px;
+	top: 300px;
+	left: 700px;
+}
+#pieza10{
+	width: 100px;
+	height: 100px;
+	top: 300px;
+	left: 800px;
+}
+#pieza3{
+	width: 100px;
+	height: 100px;
+	top: 300px;
+	left: 900px;
+}
+#pieza6{
+	width: 100px;
+	height: 100px;
+	top: 400px;
+	left: 600px;
+}
+#pieza14{
+	width: 100px;
+	height: 100px;
+	top: 400px;
+	left: 700px;
+}
+#pieza9{
+	width: 100px;
+	height: 100px;
+	top: 400px;
+	left: 800px;
+}
+#pieza5{
+	width: 100px;
+	height: 100px;
+	top: 400px;
+	left: 900px;
+}
+
+
+
+
+
+
+
+#hueco1{
+	top: 100px;
+	left: 20px;
+	width: 100px;
+	height: 100px;
+}
+#hueco2{
+	top: 100px;
+	left: 120px;
+	width: 100px;
+	height: 100px;
+}
+#hueco3{
+	top: 100px;
+	left: 220px;
+	width: 100px;
+	height: 100px;
+}
+#hueco4{
+	top: 100px;
+	left: 320px;
+	width: 100px;
+	height: 100px;
+}
+#hueco5{
+	top: 200px;
+	left: 20px;
+	width: 100px;
+	height: 100px;
+}
+#hueco6{
+	top: 200px;
+	left: 120px;
+	width: 100px;
+	height: 100px;
+}
+#hueco7{
+	top: 200px;
+	left: 220px;
+	width: 100px;
+	height: 100px;
+}
+#hueco8{
+	top: 200px;
+	left: 320px;
+	width: 100px;
+	height: 100px;
+}
+#hueco9{
+	top: 300px;
+	left: 20px;
+	width: 100px;
+	height: 100px;
+}
+#hueco10{
+	top: 300px;
+	left: 120px;
+	width: 100px;
+	height: 100px;
+}
+#hueco11{
+	top: 300px;
+	left: 220px;
+	width: 100px;
+	height: 100px;
+}
+#hueco12{
+	top: 300px;
+	left: 320px;
+	width: 100px;
+	height: 100px;
+}
+#hueco13{
+	top: 400px;
+	left: 20px;
+	width: 100px;
+	height: 100px;
+}
+#hueco14{
+	top: 400px;
+	left: 120px;
+	width: 100px;
+	height: 100px;
+}
+#hueco15{
+	top: 400px;
+	left: 220px;
+	width: 100px;
+	height: 100px;
+}
+#hueco16{
+	top: 400px;
+	left: 320px;
+	width: 100px;
+	height: 100px;
+}

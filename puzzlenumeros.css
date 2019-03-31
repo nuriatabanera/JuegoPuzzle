@@ -1,0 +1,198 @@
+
+body{
+	margin:0;
+	padding:0;
+
+}
+
+
+/**** tamaño movil****/
+@media all and (max-width: 504px) {
+
+#titulo{
+    
+  margin-left: 40px;
+  width: 200px;
+  height: 50px;
+}
+
+#cosas{
+	left: 20px;
+	top: 20px;
+	font-size: 0;
+	position: relative;
+
+	}
+#pieza1, #pieza2, #pieza3, #pieza4{
+	position: absolute;
+	border: 1px solid grey;
+	}
+#hueco1, #hueco2, #hueco3, #hueco4{
+	position: absolute;
+} 
+
+#pieza1{
+	width: 200px;
+	height: 200px;
+	top: 400px;
+	left: 220px;
+
+}
+#pieza2{
+	width: 200px;
+	height: 200px;
+	top: 600px;
+	left: 220px;
+
+}
+#pieza3{
+	width: 200px;
+	height: 200px;
+	top: 400px;
+	left: 20px;
+
+}
+#pieza4{
+	width: 200px;
+	height: 200px;
+	top: 600px;
+	left: 20px;
+
+}
+
+#hueco1{
+	top: 0px;
+	left: 20px;
+	border: 1px solid grey;
+	width: 200px;
+	height: 200px;
+	opacity: 0.3;
+}
+#hueco2{
+	top: 0px;
+	left: 220px;
+	border: 1px solid grey;
+	width: 200px;
+	height: 200px;
+	opacity: 0.3;
+}
+#hueco3{
+	top: 200px;
+	left: 20px;
+	border: 1px solid grey;
+	width: 200px;
+	height: 200px;
+	opacity: 0.3;
+}
+#hueco4{
+	top: 200px;
+	left: 220px;
+	border: 1px solid grey;
+	width: 200px;
+	height: 200px;
+	opacity: 0.3;
+}
+
+
+}
+
+/**** tamaño ordenador****/
+@media all and (min-width: 504px) {
+
+
+
+.titulo{
+	margin-left: 320px;
+	margin-top: 20px;
+	width:100%;
+	height:100%;
+	position:absolute;
+
+}
+
+
+.cosas{
+
+	left: 20px;
+	top: 20px;
+	font-size: 0;
+	position: relative;
+    
+
+}
+
+#pieza1, #pieza2, #pieza3, #pieza4{
+	position: absolute;
+	border: 1px solid grey;
+} 
+#hueco1, #hueco2, #hueco3, #hueco4{
+	position: absolute;
+} 
+
+
+#pieza2{
+
+	width: 200px;
+	height: 200px;
+	top: 100px;
+	left: 600px;
+
+}
+#pieza4{
+	width: 200px;
+	height: 200px;
+	top: 100px;
+	left: 800px;
+
+}
+#pieza1{
+	width: 200px;
+	height: 200px;
+	top: 300px;
+	left: 600px;
+
+}
+#pieza3{
+	width: 200px;
+	height: 200px;
+	top: 300px;
+	left: 800px;
+
+
+}
+
+#hueco1{
+	top: 100px;
+	left: 20px;
+	border: 1px solid grey;
+	width: 200px;
+	height: 200px;
+	opacity: 0.3;
+}
+#hueco2{
+	top: 100px;
+	left: 220px;
+	border: 1px solid grey;
+	width: 200px;
+	height: 200px;
+	opacity: 0.3;
+}
+#hueco3{
+	top: 300px;
+	left: 20px;
+	border: 1px solid grey;
+	width: 200px;
+	height: 200px;
+	opacity: 0.3;
+}
+#hueco4{
+	top: 300px;
+	left: 220px;
+	border: 1px solid grey;
+	width: 200px;
+	height: 200px;
+	opacity: 0.3;
+}
+
+
+}
